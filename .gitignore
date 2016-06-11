@@ -5,6 +5,7 @@
 /.idea/
 /.brackets.json
 /.tmp/
+.DS_Store
 
 # Cordova folders
 node_modules/
