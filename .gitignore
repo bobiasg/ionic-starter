@@ -4,15 +4,16 @@
 # Editor files
 /.idea/
 /.brackets.json
+/.tmp/
 
 # Cordova folders
 node_modules/
 platforms/
 plugins/
+bower_components/
 
-# when use sass, do not commit css files
-/www/css/
-/www/lib/
+# build from src
+/www
 
 # do not commit generated images
 /resources/android/

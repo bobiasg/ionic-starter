@@ -1,12 +1,17 @@
 {
   "name": "ionic-starter",
   "app_id": "",
+  "gulpDependantTasks" :[
+    "inject-clean-dev"
+  ],
   "gulpStartupTasks": [
-    "sass",
-    "watch"
+    "serve"
   ],
   "watchPatterns": [
     "www/**/*",
     "!www/lib/**/*"
+  ],
+  "proxies": [
+    
   ]
 }
